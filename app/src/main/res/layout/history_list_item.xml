@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:id="@+id/list_container">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="0.99"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        >
+
+        <TextView
+            android:id="@+id/hist_date_log"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Log Date: "
+            android:layout_marginBottom="10dp"
+            android:textSize="7pt"
+            />
+
+        <TextView
+            android:id="@+id/hist_punch_mode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Punch Mode:"
+            android:textSize="5pt"
+            />
+
+        <TextView
+            android:id="@+id/hist_punch_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Punch Date:"
+            android:textSize="5pt"
+            />
+
+        <TextView
+            android:id="@+id/hist_dev_target"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Device ID:"
+            android:textSize="5pt"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:layout_weight="0.01">
+
+        <ImageView
+            android:id="@+id/hist_icon_qr"
+            android:scaleType="fitCenter"
+            android:layout_height="40dp"
+            android:layout_width="40dp"
+            android:layout_marginRight="5dp"
+            />
+
+        <ImageView
+            android:id="@+id/hist_icon_type"
+            android:scaleType="fitCenter"
+            android:layout_height="70dp"
+            android:layout_width="70dp"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>

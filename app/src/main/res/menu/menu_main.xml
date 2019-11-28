@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.attendancesystem.MainActivity">
+    <item
+        android:id="@+id/setting_faq"
+        android:orderInCategory="100"
+        android:title="@string/setting_item_03"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/setting_guide"
+        android:orderInCategory="100"
+        android:title="@string/setting_item_01"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/setting_info"
+        android:orderInCategory="100"
+        android:title="@string/setting_item_02"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/setting_about"
+        android:orderInCategory="100"
+        android:title="@string/setting_item_04"
+        app:showAsAction="never" />
+</menu>

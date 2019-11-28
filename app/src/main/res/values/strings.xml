@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<resources>
+    <string name="app_name">Attendance Access System</string>
+
+    <string name="setting_item_01">Guide</string>
+    <string name="setting_item_02">Get Phone Info</string>
+    <string name="setting_item_03">FAQ?</string>
+    <string name="setting_item_04">About System</string>
+
+    <string name="auth_failed_title">Authentication Failed</string>
+
+    <string name="menu_btn_01">Status</string>
+    <string name="menu_btn_02">Punch</string>
+    <string name="menu_btn_03">History</string>
+
+    <string name="permission_read_phone_state_rationale">Please allow access for phone information request.</string>
+
+    <string name="view_default_page">Default Application Page</string>
+
+    <string name="nfc_title">Punch Attendance and Door Access</string>
+
+</resources>
